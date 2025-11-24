@@ -64,12 +64,19 @@ Each folder or `.java` file represents a specific lab or project topic, such as:
 
 ## 🧪 Assignments Overview
 
-| # | Assignment Title | Description |
-|---|------------------|-------------|
-| 1 | **Leap Year Checker** | Determines if a given year is a leap year using nested if-statements and logical operators. |
-| 2 | **Rock Paper Scissors Game** | A simple game using `JOptionPane` dialogs, random numbers, and arrays for choices. |
-| 3 | **Text Adventure Story** | Interactive story using nested if statements to control the narrative flow. |
-| 4 | **Programme Code Venue Finder** | Validates user programme code (case-insensitive) and outputs a venue message. |
+This section summarizes the main topics and example programs created week-by-week.
+
+| Week | Key programs / topics | Notes |
+|---:|:---------------------|:-----|
+| Week 1 | `MyFirstProgram`, `SimpleAddition`, debug exercises | Intro to Java syntax, printing, variables and arithmetic. |
+| Week 2 | `EggBox`, `MonthlyWage`, `SimpleAddition` | User input (console & JOptionPane), parsing numeric types, simple calculations. |
+| Week 3 | `MonthlyWageApp`, `EggBoxApp`, `Rectangle`, `Salary` | Introducing classes/objects, setters/getters, small app drivers. |
+| Week 4 | `IfStatements` labs, `Cinema`, `Random`, `PositiveOrNegative`, `OddOrEven` | Conditionals, modulo, branching logic and simple GUIs. |
+| Week 5 | `CinemaNest`, advanced lab exercises | Nested loops, control flow and program structuring. |
+| Week 6 | Week 6 lab exercises | Continued practice with methods, arrays and small apps. |
+| Week 7 | `GuessNumber` games, lab assignments | Random numbers, loops, user input validation, game logic. |
+| Week 8 | `grid`, lab assignments | 2D arrays, formatted output and printing patterns. |
+| Week 9 | `Reverse`, `StringChecker`, `CountLetters`, `CountVowels`, `SecondLetter`, `ExaclamationString` | String manipulation, character processing and small utility classes. |
 
 ---
 
