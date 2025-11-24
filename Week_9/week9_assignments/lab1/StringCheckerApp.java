@@ -37,13 +37,21 @@ public class StringCheckerApp {
         numLetters = countLetters.getNumLetters();
         numVowels = countVowels.getNumVowels();
         everySecondLetter = secondLetter.getSecondLetterString();
-        formattedString = exc.getResult();
+    formattedString = exc.getResult();
 
-        
-        //output
-        System.out.println("Number of letters of that string is: "+numLetters);
-        System.out.println("Number of vowels of that string is: "+numVowels);
-        System.out.println("Here is your new string with every second letter: "+everySecondLetter);
-        System.out.println("Here is your new string replacing vowels for '!': "+formattedString);
+    // spaces: compute and output positions
+    SpacePositions sp = new SpacePositions();
+    sp.setUserInput(userInput);
+    sp.computePositions();
+
+    //output
+    System.out.println("Number of letters of that string is: "+numLetters);
+    System.out.println("Number of vowels of that string is: "+numVowels);
+    System.out.println("Here is your new string with every second letter: "+everySecondLetter);
+    System.out.println("Here is your new string replacing vowels for '!': "+formattedString);
+    System.out.println("Number of spaces: " + (sp.getPositions() == null ? 0 : sp.getPositions().size()));
+    System.out.println("Space positions (0-based): " + sp.getPositionsString());
+    // optional 1-based view
+    System.out.println("Space positions (1-based): " + (sp.getPositions() == null ? "[]" : sp.getPositions().stream().map(i -> i+1).toList()));
     }
 }
